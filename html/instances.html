@@ -1,0 +1,21 @@
+<div>
+  <md-content>
+    <md-list>
+      <md-item ng-repeat="instance in instances">
+        <md-item-content>
+          <div class="md-tile-left">
+            <h3>{{instance.name}}</h3><br>
+          </div>
+          <div class="md-tile-content">
+			OS: {{instance.os}}<br>
+			Status: {{instance.status}}<br>
+			Primary Node: {{instance.pnode}}<br>
+			Disk Usage: {{instance.disk_usage / 1024}} GBytes<br>
+			CPUs: {{instance.oper_cpu}}<br>
+			Memory: {{instance.oper_ram}} Mbytes<br>
+          </div>
+        </md-item-content>
+      </md-item>
+    </md-list>
+  </md-content>
+</div>
