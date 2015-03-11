@@ -3,6 +3,8 @@ An AngularJS Based simple frontend for a Ganeti Cluster
 
 Design goals are to have a very simple fronend to display, and to make some small changes.
 
+This will not help you build a Ganeti cluster, it will just give some day to day operational information and control.
+
 Installation:
 -------------
 * Install python-tornado
